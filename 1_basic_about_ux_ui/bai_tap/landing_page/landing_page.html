@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Landing Page</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+</head>
+<style>
+    .bg1 {
+        background-color: #272882;
+    }
+
+    .bg2 {
+        background-color: #272882;
+    }
+
+    .icon-color {
+        color: white;
+    }
+
+    .dropbtn {
+        background-color: #272882;
+        color: white;
+        padding: 16px;
+        font-size: 16px;
+        border: none;
+    }
+
+    /* The container <div> - needed to position the dropdown content */
+    .dropdown {
+        position: relative;
+        display: inline-block;
+    }
+
+    /* Dropdown Content (Hidden by Default) */
+    .dropdown-content {
+        display: none;
+        position: absolute;
+        background-color: #272882;
+        min-width: 160px;
+        box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+        z-index: 1;
+    }
+
+    /* Links inside the dropdown */
+    .dropdown-content a {
+        color: white;
+        padding: 12px 16px;
+        text-decoration: none;
+        display: block;
+    }
+
+    /* Change color of dropdown links on hover */
+    .dropdown-content a:hover {
+        background-color: #ddd;
+    }
+
+    /* Show the dropdown menu on hover */
+    .dropdown:hover .dropdown-content {
+        display: block;
+    }
+
+    /* Change the background color of the dropdown button when the dropdown content is shown */
+    .dropdown:hover .dropbtn {
+        background-color: #272882;
+    }
+
+    .img-fluid {
+        width: 100%;
+        height: 100%;
+    }
+
+    .text {
+        color: #fff;
+        position: absolute;
+        top: 10px;
+        text-align: center;
+        margin-top: 300px;
+    }
+</style>
+<body>
+<div class="container-fluid">
+    <div class="row">
+        <div class="col-lg-4 bg1">
+            <a href="https://codegym.vn/">
+                <img src="https://codegym.vn/wp-content/uploads/2021/08/CodeGym-Logo.webp" width="290" height="50"
+                     alt="CodeGym" id="logo" data-height-percentage="70" data-actual-width="1265"
+                     data-actual-height="218.094">
+            </a>
+        </div>
+        <div class="col-lg-8 bg2">
+            <div class="dropdown">
+                <button class="dropbtn">KHÓA HỌC</button>
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                     class="bi bi-chevron-down icon-color" viewBox="0 0 16 16">
+                    <path fill-rule="evenodd"
+                          d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/>
+                </svg>
+                <div class="dropdown-content">
+                    <a href="#">Người Mới Bắt Đầu</a>
+                    <a href="#">Người Đã Biết Lập Trình</a>
+                    <a href="#">Khoá Học Từ Xa</a>
+                </div>
+            </div>
+            <div class="dropdown">
+                <button class="dropbtn">TRUNG TÂM</button>
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                     class="bi bi-chevron-down icon-color" viewBox="0 0 16 16">
+                    <path fill-rule="evenodd"
+                          d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/>
+                </svg>
+                <div class="dropdown-content">
+                    <a href="#">CODEGYM Huế</a>
+                    <a href="#">CODEGYM Quảng Trị</a>
+                    <a href="#">CODEGYM Đà Nẵng</a>
+                </div>
+            </div>
+            <div class="dropdown">
+                <button class="dropbtn">BLOG</button>
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                     class="bi bi-chevron-down icon-color" viewBox="0 0 16 16">
+                    <path fill-rule="evenodd"
+                          d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/>
+                </svg>
+                <div class="dropdown-content">
+                    <a href="#">Bài Viết Chuyên Môn</a>
+                    <a href="#">Sách Học Nghề</a>
+                    <a href="#">Sách Lập Trình</a>
+                </div>
+            </div>
+            <div class="dropdown">
+                <button class="dropbtn ">TIN TỨC</button>
+                <div class="dropdown-content">
+                </div>
+            </div>
+            <div class="dropdown">
+                <button class="dropbtn">GIỚI THIỆU</button>
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                     class="bi bi-chevron-down icon-color" viewBox="0 0 16 16">
+                    <path fill-rule="evenodd"
+                          d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/>
+                </svg>
+                <div class="dropdown-content">
+                    <a href="#">Giới Thiệu</a>
+                    <a href="#">Liên Hệ</a>
+                    <a href="#">Tuyển Dụng</a>
+                </div>
+            </div>
+            <svg style="margin-left: 40px" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                 class="bi bi-search icon-color" viewBox="0 0 16 16">
+                <path d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z"/>
+            </svg>
+        </div>
+    </div>
+</div>
+<img src="https://codegym.vn/wp-content/uploads/2018/07/office_2.png" class="img-fluid" alt="...">
+<div class="container-fluid">
+    <div class="row">
+        <div class="col-lg-12">
+            <div class="et_pb_text_inner text">
+                <h2>TRỞ THÀNH LẬP TRÌNH VIÊN
+                FULL-STACK CHỈ SAU 5 THÁNG</h2>
+                <p style="margin-left: 140px;margin-right:140px">CodeGym Career là chương trình đào tạo lập trình viên hiện đại, vững tay nghề theo mô hình Coding
+                    Bootcamp dành
+                    cho người bắt đầu từ con số 0, các bạn sinh viên CNTT, sinh viên ngành khác, những người đang làm
+                    ngành/nghề
+                    khác muốn chuyển hướng theo đuổi nghề lập trình.</p></div>
+        </div>
+    </div>
+</div>
+<h4 style="text-align:center;margin-top:100px">TỔNG QUAN CHƯƠNG TRÌNH</h4>
+<div style="text-algin:center;margin-left:150px;margin-right:150px;font-size:20px">Chương trình CodeGym Career tại CodeGym cung cấp giải
+    pháp đào tạo lập trình viên chuyên nghiệp, huấn luyện thực chiến trong thời gian ngắn, thực hành liên tục và cường
+    độ cao. Học viên sẽ thành thạo các kỹ thuật lập trình với các ngôn ngữ JavaScript, Java, PHP và Typescript, tham gia
+    vào các nhóm dự án theo mô hình Scrum và sử dụng các kỹ thuật Agile thông dụng. Hoàn thành chương trình, học viên
+    CodeGym có thể đảm nhận ngay vị trí lập trình viên full-stack tại các công ty.
+</div>
+<div class="container-fluid">
+    <div class="row">
+        <div class="col-lg-12">
+            <div class="ratio ratio-16x9">
+                <iframe style="margin-top: 50px;margin-bottom: 70px" width="50%" height="50%" src="https://youtu.be/pDOD7gAGM6g"
+                        title="YouTube video player" frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
+        </div>
+    </div>
+</div>
+<script src="js/bootstrap.min.js"></script>
+</body>
+</html>
