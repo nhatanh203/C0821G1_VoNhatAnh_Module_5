@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>List Service</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+</head>
+<style>
+    .bg1 {
+        background-color: #F2DAD8;
+    }
+
+    .bg2 {
+        background-color: #F2DAD8;
+    }
+
+    .icon-color {
+
+    }
+
+    /* The container <div> - needed to position the dropdown content */
+    .dropdown {
+        position: relative;
+        display: inline-block;
+    }
+
+    /* Dropdown Content (Hidden by Default) */
+    .dropdown-content {
+        display: none;
+        position: absolute;
+        background-color: #8C7657;
+        min-width: 160px;
+        box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+        z-index: 1;
+    }
+
+    /* Links inside the dropdown */
+    .dropdown-content a {
+        color: white;
+        padding: 12px 16px;
+        text-decoration: none;
+        display: block;
+    }
+
+    /* Change color of dropdown links on hover */
+    .dropdown-content a:hover {
+        background-color: #F2DAD8;
+    }
+
+    /* Show the dropdown menu on hover */
+    .dropdown:hover .dropdown-content {
+        display: block;
+    }
+
+    /* Change the background color of the dropdown button when the dropdown content is shown */
+    .dropdown:hover .dropbtn {
+        background-color: white;
+    }
+
+    .dropbtn {
+        background-color: #F2DAD8;
+        /*color: white;*/
+        padding: 16px;
+        font-size: 16px;
+        border: none;
+    }
+    .text {
+      color: #fff;
+      position: absolute;
+      top: 10px;
+      text-align: center;
+      margin-top: 300px;
+    }
+</style>
+<body>
+<h4 style="text-align: center; color:#A86963;margin-top:10px">C0821G1 : Võ Nhật Anh</h4>
+<hr>
+<div class="container-fluid">
+    <div class="row">
+        <div class="col-lg-4 bg1">
+            <h2 class="font-monospace" style="color:#8C7659"><strong>furama</strong></h2>
+        </div>
+        <div class="col-lg-8 bg2">
+            <div class="dropdown">
+                <button class="dropbtn">KHUYẾN MÃI</button>
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                     class="bi bi-chevron-down icon-color" viewBox="0 0 16 16">
+                    <path fill-rule="evenodd"
+                          d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/>
+                </svg>
+                <div class="dropdown-content">
+                    <a href="#">10%</a>
+                    <a href="#">50%</a>
+                    <a href="#">75%</a>
+                </div>
+            </div>
+            <div class="dropdown">
+                <button class="dropbtn">KHÁCH SẠN</button>
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                     class="bi bi-chevron-down icon-color" viewBox="0 0 16 16">
+                    <path fill-rule="evenodd"
+                          d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/>
+                </svg>
+                <div class="dropdown-content">
+                    <a href="#">Hotel Room</a>
+                    <a href="#">Resort</a>
+                    <a href="#">Dịch Vụ</a>
+                </div>
+            </div>
+            <div class="dropdown">
+                <button class="dropbtn">KHÁM PHÁ</button>
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                     class="bi bi-chevron-down icon-color" viewBox="0 0 16 16">
+                    <path fill-rule="evenodd"
+                          d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/>
+                </svg>
+                <div class="dropdown-content">
+                    <a href="#">Điểm Đến</a>
+                    <a href="#">Chuyên Môn</a>
+                </div>
+            </div>
+            <div class="dropdown">
+                <button class="dropbtn ">TIN TỨC</button>
+                <div class="dropdown-content">
+                </div>
+            </div>
+            <div class="dropdown">
+                <button class="dropbtn">GIỚI THIỆU</button>
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                     class="bi bi-chevron-down icon-color" viewBox="0 0 16 16">
+                    <path fill-rule="evenodd"
+                          d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/>
+                </svg>
+                <div class="dropdown-content">
+                    <a href="#">Giới Thiệu</a>
+                    <a href="#">Liên Hệ</a>
+                    <a href="#">Tuyển Dụng</a>
+                </div>
+            </div>
+            <svg style="margin-left: 40px" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                 class="bi bi-search icon-color" viewBox="0 0 16 16">
+                <path d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z"/>
+            </svg>
+        </div>
+    </div>
+</div>
+<!--<img  width="362" height="300" src="https://www.hoiana.com/wp-content/uploads/2020/09/NWHAN-English_ReversedWhite-1.png"-->
+<!--     class="img-fluid" alt="...">-->
+<img width="100%" height="30%" src="https://www.hoiana.com/wp-content/uploads/2020/09/NWHAN-English_ReversedWhite-1.png" class="attachment-full size-full" alt="" loading="lazy" srcset="https://www.hoiana.com/wp-content/uploads/2021/05/B1093006-AROMA-2-768x576.jpg 362w, https://www.hoiana.com/wp-content/uploads/2020/09/NWHAN-English_ReversedWhite-1-300x249.png 300w" sizes="(max-width: 362px) 100vw, 362px">
+<div class="container-fluid">
+  <div class="row">
+    <div class="col-lg-12">
+      <div class="et_pb_text_inner text">
+        <h2 style="margin-top:40px;" class="font-monospace">FURAMA HOTEL</h2>
+        <p style="margin-left: 140px;margin-right:140px;margin-top:20px">New World Furama Hotel là nơi lý tưởng cho mọi khách du lịch với 476 phòng nghỉ. Không gian nội thất các phòng được thiết kế theo phong cách đương đại nhằm mang lại sự thoải mái và tiện nghi nhất cho mọi du khách.</p></div>
+    </div>
+  </div>
+</div>
+<script src="js/bootstrap.min.js"></script>
+</body>
+</html>
